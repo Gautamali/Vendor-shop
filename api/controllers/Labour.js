@@ -1,5 +1,5 @@
 const Labour = require('../models/Labour');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 exports.create = async (req, res) => {
     try{

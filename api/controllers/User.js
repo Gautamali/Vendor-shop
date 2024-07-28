@@ -1,6 +1,6 @@
 const Labour = require('../models/Labour');
 const User = require('../models/User');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const { labours } = require('./Labour');
 
 exports.register = async(req, res)=>{
